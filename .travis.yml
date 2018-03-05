@@ -5,3 +5,10 @@ env:
  - NPM_TOKEN=977a5fe4-f902-4bd6-97a1-3db4c005272b
 before_install:
  - printf "@zibtek:registry=http://192.168.249.152:8080\n//192.168.249.152:8080/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+
+deploy:
+  provider: npm
+  email: amol.deole@zibtek.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
