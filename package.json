@@ -1,0 +1,23 @@
+{
+  "name": "@zibtek/test_ci_travis",
+  "version": "1.0.0",
+  "description": "This for testing travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmetest/test_CI_travis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npmetest/test_CI_travis/issues"
+  },
+  "homepage": "https://github.com/npmetest/test_CI_travis#readme",
+  "dependencies": {
+    "@zibtek/test_ci_buildkite": "^1.0.0",
+    "express": "^4.16.2"
+  }
+}
